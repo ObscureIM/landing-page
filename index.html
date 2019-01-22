@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="apple-touch-icon" sizes="120x120" href="./ico/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./ico/favicon-16x16.png">
+    <link rel="manifest" href="./ico/site.webmanifest">
+    <link rel="mask-icon" href="./ico/safari-pinned-tab.svg" color="#00853d">
+    <link rel="shortcut icon" href="./ico/favicon.ico">
+    <meta name="msapplication-TileColor" content="#00853d">
+    <meta name="msapplication-config" content="/ico/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="Obscure.IM">
+    <meta name="Description" content="Faucet">
+    <meta property="og:description" content="Obscure.IM Ultimate Privacy">
+    <meta property="og:image" content="https://turtlecoin.github.io/blockchain-explorer/img/turtlecoin_shield.png">
+    <meta name="Keywords" content="Obscure, Obscure Faucet, Privacy, Cryptonote , Free coins">
+    <title>Obscure </title>
+    <link rel="stylesheet" href="./css/third-party.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/app.css">
+
+    <script src="./js/third-party.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="./js/common.js"></script>
+
+    <script src="./js/config.js"></script>
+    <script src="./js/third-party.js"></script>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </head>
+  <body class="has-navbar-fixed-top">
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://turtlecoin.lol">
+        <img src="./img/rock.png" height="100">
+        </a>
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="siteNavBar">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div id="siteNavBar" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item is-active" href="//explore.obscure.im/"><i class="fas fa-dice-d6"></i>&nbsp; Block Explorer</a>
+          <a class="navbar-item" href="//explore.obscure.im/pools.html"><i class="fas fa-users"></i>&nbsp; Pools</a>
+          <a class="navbar-item" href="//faucet.obscure.im/"><i class="fas fa-tint"></i>&nbsp; Faucet</a>
+          <!-- <a class="navbar-item" href="./tools.html"><i class="fas fa-toolbox"></i>&nbsp; Tools</a> -->
+        </div>
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="field has-addons">
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section class="section">
+        <div class="container">
+          <div class="columns">
+            <div class="column panel" id="miningTimeDiv">
+              <text id = "miningDate">Mining Starts In </text>
+              </div>
+            </div>
+          </div>
+        <div class="container">
+          <div class="columns">
+            <div class="column panel" id="miningTimeDiv">
+              <text id = "miningTime">Calculating ...</text>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="columns">
+            <div class="column panel" id="miningTimeDiv">
+              <text id = "miningDate">To 15 February 2019</text>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2 text-center">
+                      <h2 class="section-heading">Community</h2>
+                      <hr class="primary">
+                      <p id="communityTag">Want to contribute to Obscure? Have questions ? Want to buy some coins? Join our community channels now!</p>
+                 </div>
+              <div class = "row-fluid">
+                <div class="col-lg-2 col-lg-offset-1 text-center">
+                    <a href="https://twitter.com/{{ site.twitter_username }}">
+                        <i class="fab fa-bitcoin fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                        <p>BitcoinTalk</p>
+                    </a></div>
+
+
+              <div class="col-lg-2  text-center">
+                  <a href="{{ site.discord }}">
+                  <i class="fab fa-discord fa-3x wow bounceIn"></i>
+                      <p>Discord</p>
+                  </a></div>
+
+              <div class="col-lg-2 text-center">
+                  <a href="{{ site.telegram }}">
+                  <i class="fab fa-telegram fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                      <p>Telegram</p>
+                  </a></div>
+
+              <div class="col-lg-2 text-center">
+                  <a href="mailto:{{ site.email }}">
+                  <i class="fab fa-reddit fa-3x wow bounceIn"></i>
+                      <p>Reddit</p>
+                  </a></div>
+
+              <div class="col-lg-2 text-center">
+                  <a href="https://github.com/{{ site.github_username }}">
+                  <i class="fab fa-github fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                      <p>Github</p>
+                  </a></div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-lg-8 col-lg-offset-2 text-center">
+                  <h2 class="section-heading">Resources</h2>
+                  <hr class="primary">
+             </div>
+          <div class="col-lg-9">
+            <div class = "row">
+              <div class="col-lg-3 col-lg-offset-3 text-center">
+                  <a href="https://twitter.com/{{ site.twitter_username }}">
+                      <i class="fa fa-book fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                      <p>Wiki</p>
+                  </a></div>
+
+
+              <div class="col-lg-3 col-lg-offset-0.5 text-center">
+                <a href="{{ site.discord }}">
+                <i class="fa fa-hammer fa-3x wow bounceIn"></i>
+                    <p>Mining Pools</p>
+                </a></div>
+
+              <div class="col-lg-3 text-center">
+                <a href="{{ site.telegram }}">
+                <i class="fa fa-wallet fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p>Wallets For Windows & MacOS</p>
+                </a>
+            </div>
+
+            </div>
+          </div>
+
+      </section>
+    </main>
+    <footer>
+      <div class="content has-text-centered">
+        <p>
+          Copyright &copy; 2018 Obscure&trade; Development Team. The source code is licensed under <a href="https://www.gnu.org/licenses/agpl-3.0.html">AGPL-3.0</a>.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
